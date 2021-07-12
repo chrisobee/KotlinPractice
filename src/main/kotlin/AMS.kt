@@ -1,3 +1,4 @@
+/*
 fun main(args: Array<String>){
     println(fitMoreFish(10.0, listOf(3,3,3)).toString())
     println(fitMoreFish(8.0, listOf(2,2,2), hasDecorations = false).toString())
@@ -24,28 +25,21 @@ fun getTotalFishSize(currentFish: List<Int>): Int{
 
     return totalFishSize
 }
+*/
 
+//------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-/*
 fun main(args: Array<String>) {
     println("Good ${if((args[0].toInt()) < 12) "Morning" else "Night"} Kotlin")
-    for(i in 0..10){
+    while(true){
         val fortune : String = getFortuneCookie()
         println("Your Fortune is: $fortune")
-        println(i.toString())
-        if(fortune == "Man who drops watch in toilet is bound to have shitty time") break
+        if(fortune == "The love of your life is stepping into your planet this summer") break
     }
 }
 
 fun getFortuneCookie () : String{
-    val fortunes : List<String> = listOf("Man who drops watch in toilet is bound to have shitty time",
-        "The love of your life is stepping into your planet this summer",
+    val fortunes : List<String> = listOf("The love of your life is stepping into your planet this summer",
         "Land is always on the mind of a flying bird",
         "Fortune favors the brave",
         "You already know the answer to the questions lingering inside your head")
@@ -73,4 +67,3 @@ fun getBirthday(amountOfFortunes : Int) : Int{
 
     return birthdayRemainder
 }
- */
