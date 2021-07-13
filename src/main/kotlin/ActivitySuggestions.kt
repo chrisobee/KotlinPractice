@@ -1,3 +1,5 @@
+import java.lang.Math.random
+
 fun main(args: Array<String>) {
     println(whatShouldIDoToday("windy"))
     println(whatShouldIDoToday("rainy", 0))
@@ -23,3 +25,4 @@ fun rainyAndSad(mood: String, weather: String) = mood == "sad" && weather == "ra
 fun snowyAndEnergetic(mood: String, weather: String, temperature: Int) = mood == "energetic" && weather == "snowy" && temperature < 0
 
 fun windyAndHappy(mood: String, weather: String) = mood == "happy" && weather =="windy"
+
